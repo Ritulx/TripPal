@@ -11,7 +11,7 @@ const { errorHandler, notFound } = require('./middleware/errorHandler');
 
 // Connect to MongoDB before starting the server.
 connectDB();
-
+const app = express();
 app.set('trust proxy', 1);
 
 // --- Security & Utility Middleware ---
