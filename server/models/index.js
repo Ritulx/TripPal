@@ -7,7 +7,7 @@ const TipReply = require('./TipReply');
 const TouristQuery = require('./TouristQuery');
 const QueryReply = require('./QueryReply');
 const SearchQuery = require('./SearchQuery');
-const PlaceCache = require('./placeCache');
+const PlaceCache = require('./PlaceCache');
 const Notification = require('./Notification');
 
 module.exports = {
